@@ -118,7 +118,7 @@ Optimized queries using JPQL and native SQL
 
 🚢 Deployment & CI/CD
 Clone the project:
-git clone https://github.com/CodeCrafters/SmartBiblio.git
+git clone https://github.com/DahmaniInes/SmartBiblio-global.git
 
 Backend:
 bashcd backend
