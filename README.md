@@ -1,8 +1,22 @@
-# SmartBiblio-global
-📚 SmartBiblio - CodeCrafters
+📚 SmartBiblio-global
 📋 Project Overview
 
-Welcome to the SmartBiblio project developed by the CodeCrafters team. This project is designed to efficiently manage library resources using a microservices architecture. It includes catalog management, stock management, deliveries, e-commerce, informative blogs, and event management.
+Welcome to the SmartBiblio project developed by the CodeCrafters team.
+This project is designed to efficiently manage library resources using a microservices architecture.
+
+It includes:
+
+Catalog management
+
+Stock management
+
+Deliveries
+
+E-commerce
+
+Informative blogs
+
+Event management
 
 👨‍💻 CodeCrafters Team
 
@@ -22,11 +36,11 @@ Ines Dahmani → Event management
 
 🔧 Technology Stack
 
-We use modern technologies to ensure performance, scalability, and security of our application:
+We use modern technologies to ensure performance, scalability, and security:
 
 Development
 
-Backend: Spring Boot (Java) with a microservices architecture
+Backend: Spring Boot (Java) with microservices architecture
 
 Frontend: Angular
 
@@ -34,7 +48,7 @@ Database: MySQL, H2
 
 DevOps & Security Tools
 
-Microservices management: Spring Cloud (Eureka, Gateway)
+Microservices Management: Spring Cloud (Eureka, Gateway)
 
 Authentication & Security: Keycloak
 
@@ -49,11 +63,11 @@ Classification by categories and authors
 
 Advanced search by title, author, category
 
-Management of book metadata (ISBN, summary, etc.)
+Manage book metadata (ISBN, summary, etc.)
 
 📦 Stock Management
 
-Real-time book stock tracking
+Real-time stock tracking
 
 Automatic availability verification
 
@@ -92,25 +106,21 @@ Participant tracking
 Event notifications and reminders
 
 📁 Project Structure
+📁 Backend (Spring Boot - Microservices)
+├── catalogue-service/
+├── stock-service/
+├── delivery-service/
+├── ecommerce-service/
+├── blog-service/
+├── event-service/
+├── gateway-service/  (Spring Cloud Gateway)
+├── eureka-server/    (Service Discovery)
+├── keycloak/         (Authentication & Security)
 
-📁 backend (Spring Boot - Microservices)
-
- ├── catalogue-service/
- ├── stock-service/
- ├── delivery-service/
- ├── ecommerce-service/
- ├── blog-service/
- ├── event-service/
- ├── gateway-service/  (Spring Cloud Gateway)
- ├── eureka-server/   (Service Discovery)
- ├── keycloak/        (Authentication & Security)
-
-
-📁 frontend (Angular)
-
- ├── src/app/
- ├── src/assets/
- ├── src/environments/
+📁 Frontend (Angular)
+├── src/app/
+├── src/assets/
+├── src/environments/
 
 🔄 Microservices Relationships
 
@@ -138,35 +148,25 @@ Centralized security with Keycloak
 
 Inter-service communication via REST API and Event-Driven Architecture
 
-Optimized queries using JPQL and native SQL
+Optimized queries with JPQL and native SQL
 
 🚢 Deployment & CI/CD
-
 Clone the project:
-
 git clone https://github.com/CodeCrafters/SmartBiblio.git
 
-
 Backend:
-
 cd backend
 mvn clean install
 mvn spring-boot:run
 
-
 Frontend:
-
 cd frontend
 npm install
 ng serve
 
-
 Using Docker:
-
 docker-compose up -d
 
 📜 License
 
 This project is under the MIT license.
-
-🎯 CodeCrafters Team | SmartBiblio 🚀
