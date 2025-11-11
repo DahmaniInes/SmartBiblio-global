@@ -1,0 +1,6 @@
+[submodule "SmartBiblio-Client"]
+	path = SmartBiblio-Client
+	url = https://github.com/DahmaniInes/SmartBiblio-frontend-angular
+[submodule "SmartBiblio_Server"]
+	path = SmartBiblio_Server
+	url = https://github.com/DahmaniInes/SmartBiblio-backend-springboot-microservices
